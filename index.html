@@ -726,10 +726,10 @@
   <script>
     function readySD() {
       $("#smartdyl-collapse").on("hide.bs.collapse", function () {
-        $("#smartdyl-read").html('<i class="fas fa-chevron-down"> Read more</i>');
+        $("#sd-read").html('<i class="fas fa-chevron-down"> Read more</i>');
       });
       $("#smartdyl-collapse").on("show.bs.collapse", function () {
-        $("#smartdyl-read").html('<i class="fas fa-chevron-up"> Read less</i>');
+        $("#sd-read").html('<i class="fas fa-chevron-up"> Read less</i>');
       });
     }
     function readyClovis() {
@@ -764,18 +764,6 @@
       readyBull();
     }
     $(document).ready(readyFn);
-    /*$('#smartdyl-collapse').on('hidden.bs.collapse', function () {
-      $('#readbtn').text('Read More');
-    });
-    $('#smartdyl-collapse').on('shown.bs.collapse', function () {
-      $('#readbtn').text('Read less');
-    });
-    $('#readbtn').on('click', function() {
-      if($('#smartdyl-collapse').on('hidden.bs.collapse'))
-              $(this).html('Read less');
-        else
-        $(this).html('Read more');
-            });*/
   </script>
 </body>
 
